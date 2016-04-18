@@ -6,8 +6,8 @@ class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    SECRET_KEY = 'WILL_DO_THIS_ONCE GOKUL BHAYIA HELPS WITH HUROKU'
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+    SECRET_KEY = 'mnr1DloWvx9VJC3CJ-hLI2zgSx'
+    SQLALCHEMY_DATABASE_URI = os.environ['postgres://wfgbweioifdejs:mnr1DloWvx9VJC3CJ-hLI2zgSx@ec2-79-125-126-192.eu-west-1.compute.amazonaws.com:5432/d98fdmm7p34k7d']
 
 
 class ProductionConfig(Config):
