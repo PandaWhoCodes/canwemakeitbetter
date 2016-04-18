@@ -105,4 +105,4 @@ def make_json_error(ex):
 
 if __name__ == '__main__':
     app.run()
-    # db.create_all() ?????
+    db.create_all()
