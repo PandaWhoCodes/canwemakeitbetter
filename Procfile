@@ -1,1 +1,1 @@
-web: gunicorn FlaskOverflow:app
+web: gunicorn main:app
